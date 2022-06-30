@@ -6,7 +6,7 @@
 /*   By: dagomez <dagomez@student.42malaga.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/01 17:11:19 by dagomez           #+#    #+#             */
-/*   Updated: 2022/06/21 15:24:49 by dagomez          ###   ########.fr       */
+/*   Updated: 2022/06/28 19:48:30 by dagomez          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,7 +49,7 @@ int	ft_printf(char const *src, ...)
 		}
 		else
 		{
-			print(src[i]);
+			print_pf(src[i]);
 			totalcount++;
 		}
 		i++;

@@ -6,7 +6,7 @@
 /*   By: dagomez <dagomez@student.42malaga.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/14 15:47:25 by dagomez           #+#    #+#             */
-/*   Updated: 2022/06/27 19:35:01 by dagomez          ###   ########.fr       */
+/*   Updated: 2022/06/28 19:47:31 by dagomez          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@
 
 int		ft_printf(char const *src, ...);
 int		ft_putstr_pf(char *s);
-void	print(char c);
+void	print_pf(char c);
 int		type_c(char c);
 int		type_s(char *s);
 int		type_p(unsigned long long num);

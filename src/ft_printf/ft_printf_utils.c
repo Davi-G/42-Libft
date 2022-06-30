@@ -6,13 +6,13 @@
 /*   By: dagomez <dagomez@student.42malaga.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/14 15:53:28 by dagomez           #+#    #+#             */
-/*   Updated: 2022/06/27 19:32:16 by dagomez          ###   ########.fr       */
+/*   Updated: 2022/06/28 19:38:36 by dagomez          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-void	print(char c)
+void	print_pf(char c)
 {
 	write(1, &c, 1);
 }

@@ -6,7 +6,7 @@
 /*   By: dagomez <dagomez@student.42malaga.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/14 18:54:10 by dagomez           #+#    #+#             */
-/*   Updated: 2022/06/27 19:35:39 by dagomez          ###   ########.fr       */
+/*   Updated: 2022/06/28 19:39:46 by dagomez          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	type_c(char c)
 {
-	print(c);
+	print_pf(c);
 	return (1);
 }
 

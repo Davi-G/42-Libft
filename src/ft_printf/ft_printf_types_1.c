@@ -6,7 +6,7 @@
 /*   By: dagomez <dagomez@student.42malaga.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/18 00:07:11 by dagomez           #+#    #+#             */
-/*   Updated: 2022/06/21 15:30:40 by dagomez          ###   ########.fr       */
+/*   Updated: 2022/06/28 19:40:40 by dagomez          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ int	type_d_r(int num, int i)
 	}
 	else if (num < 0)
 	{
-		print('-');
+		print_pf('-');
 		i = type_d_r((num * -1), i);
 	}
 	else if (num >= 10)
@@ -30,7 +30,7 @@ int	type_d_r(int num, int i)
 		type_d_r((num % 10), i);
 	}
 	else
-		print(num + '0');
+		print_pf(num + '0');
 	return (i + 1);
 }
 
@@ -59,7 +59,7 @@ int	type_u_r(int num, int i)
 		type_u_r((num_aux % 10), i);
 	}
 	else
-		print(num_aux + '0');
+		print_pf(num_aux + '0');
 	return (i + 1);
 }
 
@@ -78,13 +78,13 @@ int	type_x_r(int num, const char type, int i)
 	else
 	{
 		if (num_aux <= 9)
-			print(num_aux + '0');
+			print_pf(num_aux + '0');
 		else
 		{
 			if (type == 'x')
-				print(num_aux - 10 + 'a');
+				print_pf(num_aux - 10 + 'a');
 			if (type == 'X')
-				print(num_aux - 10 + 'A');
+				print_pf(num_aux - 10 + 'A');
 		}
 	}
 	return (i + 1);
